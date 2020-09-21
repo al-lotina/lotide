@@ -1,4 +1,5 @@
-// command line argument exercie to be run in Terminal
+// command line argument exercise to be run in Terminal
+
 let newArr = process.argv.slice(2);
 let str = '';
 for (let item of newArr) {  
@@ -8,4 +9,5 @@ for (let item of newArr) {
   str += item[0] + 'ay ';
 }  
 console.log(str);
+
   

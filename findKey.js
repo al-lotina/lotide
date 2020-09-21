@@ -16,3 +16,5 @@ const keyFinder = findKey({
 }, x => x.stars === 2) // => "noma"
 
 console.log(keyFinder);
+
+module.exports = findKey;

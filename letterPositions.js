@@ -1,4 +1,4 @@
-function letterPositions (sentence) {
+const letterPositions = function(sentence) {
   const Obj = {};
   for (let i = 0; i < sentence.length; i++) {
     if (sentence[i] !== ' ') {
@@ -13,3 +13,5 @@ function letterPositions (sentence) {
   console.log(Obj); 
 }
 letterPositions("lighthouse in the house");
+
+module.exports = letterPositions;

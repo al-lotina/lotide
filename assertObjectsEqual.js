@@ -28,3 +28,5 @@ const assertObjectsEqual = function(actual, expected) {
 }
 
 assertObjectsEqual(bestTVShowsByGenre, copyOfBestTVShows); 
+
+module.exports = assertObjectsEqual;
