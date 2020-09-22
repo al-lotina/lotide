@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@alotina/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A mini clone of the Lodash library. Created for instructional purposes",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/al-lotina/lotide.git"
   },
-  "author": "",
+  "author": "Al Lotina <lotina.al@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/al-lotina/lotide/issues"
